@@ -1,0 +1,25 @@
+site_name: SSCS Cluster Documentation
+#site_url
+nav:
+- Home: 'index.md'
+- Getting Started: 'getting-started/first-steps.md'
+- Connecting: 'connecting/connecting.md'
+- Partitions: 'partitions/partitions.md'
+- Slurm: 'slurm/slurm.md'
+- Software:
+  - Overview: 'software/overview.md'
+  - Modules: 'software/modules.md'
+  - Conda: 'software/conda.md'
+- Hardware: 'hardware/overview.md'
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.indexes
+markdown_extensions:
+  - toc:
+      permalink: "#"
+  - attr_list
+  - admonition
+  
+  
