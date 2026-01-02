@@ -2,15 +2,14 @@
 
 Introduction to the Slurm workload manager, basic commands, job submission, and monitoring.
 
-Example jobs:
+=== "sbatch"
 
-::: {tabs}
-### sbatch
-Content for the first tab.
+    ```bash
+    #insert example sbatch script
+    ```
 
-### srun
-Content for the second tab.
+=== "srun"
 
-### salloc
-Content for the third tab.
-:::
+    ```bash 
+    srun --pty /bin/bash
+    ```
