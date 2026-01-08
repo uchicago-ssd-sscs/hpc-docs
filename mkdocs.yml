@@ -4,6 +4,7 @@ nav:
 - Home: 'index.md'
 - Getting Started: 'getting-started/first-steps.md'
 - Connecting: 'connecting/connecting.md'
+- Globus: 'globus/globus.md'
 - Partitions: 'partitions/partitions.md'
 - Slurm: 'slurm/slurm.md'
 - Software:
