@@ -6,7 +6,8 @@ Introduction to the Slurm workload manager, basic commands, job submission, and 
 
     ```
     !/bin/bash
-    #insert example sbatch script
+    #SBATCH time=00:10:00
+    SBATCH partition=gpu
     ```
 
 === "srun"
