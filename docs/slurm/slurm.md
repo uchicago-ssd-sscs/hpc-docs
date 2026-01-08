@@ -4,7 +4,8 @@ Introduction to the Slurm workload manager, basic commands, job submission, and 
 
 === "sbatch"
 
-    ```bash
+    ```
+    !/bin/bash
     #insert example sbatch script
     ```
 
