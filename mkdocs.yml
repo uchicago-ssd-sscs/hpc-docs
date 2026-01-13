@@ -3,29 +3,33 @@ site_url: https://uchicago-ssd-sscs.github.io/hpc-docs
 nav:
 - Home: 'index.md'
 - Getting Started: 'getting-started/first-steps.md'
-- Connecting: 'connecting/connecting.md'
-- Globus: 'globus/globus.md'
-- Partitions: 'partitions/partitions.md'
-- Slurm: 'slurm/slurm.md'
-- Software:
-  - Overview: 'software/overview.md'
-  - Modules: 'software/modules.md'
-  - Conda: 'software/conda.md'
-- Hardware: 'hardware/overview.md'
+# - Connecting: 'connecting/connecting.md'
+# - Globus: 'globus/globus.md'
+# - Partitions: 'partitions/partitions.md'
+# - Slurm: 'slurm/slurm.md'
+# - Software:
+#   - Overview: 'software/overview.md'
+#   - Modules: 'software/modules.md'
+#   - Conda: 'software/conda.md'
+# - Hardware: 'hardware/overview.md'
 
 theme:
   name: material
+  font:
+    text: Inter
+    code: Fira Code # Currently using Monaspace Neon - Regular
   features:
     - content.tabs.link
     - navigation.tabs
     - navigation.indexes
     - toc.follow
+    - content.code.copy
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: red
-      #accent: 
+      primary: deep purple
+      accent: cyan
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -33,12 +37,15 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: red
-      #accent:
+      primary: purple
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   
+extra_css:
+  - assets/stylesheets/styles.css 
+
 markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
@@ -46,3 +53,10 @@ markdown_extensions:
       permalink: "#"
   - attr_list
   - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

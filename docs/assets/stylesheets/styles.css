@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Monaspace Neon';
+  src: url('../fonts/MonaspaceNeon-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*@font-face {
+  font-family: 'Monaspace Neon';
+  src: url('../fonts/MonaspaceNeon-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}*/
+
+:root {
+  --md-code-font: "Monaspace Neon";
+}
+
+code, pre, .highlight {
+  font-family: 'Monaspace Neon', monospace !important;
+}
