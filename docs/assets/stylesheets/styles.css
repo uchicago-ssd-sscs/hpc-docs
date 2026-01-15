@@ -1,21 +1,37 @@
-@font-face {
+/* Code font option - Monaspace */
+/*@font-face {
   font-family: 'Monaspace Neon';
   src: url('../fonts/MonaspaceNeon-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
-}
-
-/*@font-face {
-  font-family: 'Monaspace Neon';
-  src: url('../fonts/MonaspaceNeon-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
 }*/
 
-:root {
+/*:root {
   --md-code-font: "Monaspace Neon";
+}*/
+
+/*code, pre, .highlight {
+  font-family: 'Monaspace Neon', monospace !important;
+}*/
+
+/* Reduce overall body text */
+.md-typeset {
+  font-size: 0.75rem;  /* default is 1rem (16px) */
 }
 
-code, pre, .highlight {
-  font-family: 'Monaspace Neon', monospace !important;
+/* Reduce code block font size */
+.md-typeset code {
+  font-size: 0.6rem;
+}
+
+/* Reduce line numbers in code blocks */
+.highlight .linenos {
+  font-size: 0.6rem;
+}
+
+/* Round the entire code block container */
+.md-typeset div.highlight,
+.md-typeset .highlighttable {
+    border-radius: 8px !important;
+    overflow: hidden !important;
 }
