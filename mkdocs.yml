@@ -2,30 +2,42 @@ site_name: SSCS Cluster Documentation
 site_url: https://uchicago-ssd-sscs.github.io/hpc-docs
 nav:
 - Home: 'index.md'
-- Getting Started: 'getting-started/first-steps.md'
-- Connecting: 'connecting/connecting.md'
-- Globus: 'globus/globus.md'
-- Partitions: 'partitions/partitions.md'
-- Slurm: 'slurm/slurm.md'
-- Software:
-  - Overview: 'software/overview.md'
-  - Modules: 'software/modules.md'
-  - Conda: 'software/conda.md'
-- Hardware: 'hardware/overview.md'
+- Getting Started: 
+  - Overview: 'getting-started/overview.md'
+  - Connecting to CVPN: 'getting-started/connect-to-vpn.md'
+  - Accessing Cluster: 'getting-started/accessing-the-cluster.md'
+  - Transferring Data: 'getting-started/data-transfer.md'
+  - Cluster Hardware & Partitions: 'getting-started/cluster-hardware-and-partitions.md'
+  - Sbatch Scripts: 'getting-started/creating-your-first-sbatch-scripts.md'
+  - Software Environment & Modules: 'getting-started/software-environment-and-modules.md'
+- FAQs: 'frequently-asked-questions.md'
+# - Connecting: 'connecting/connecting.md'
+# - Globus: 'globus/globus.md'
+# - Partitions: 'partitions/partitions.md'
+# - Slurm: 'slurm/slurm.md'
+# - Software:
+#   - Overview: 'software/overview.md'
+#   - Modules: 'software/modules.md'
+#   - Conda: 'software/conda.md'
+# - Hardware: 'hardware/overview.md'
 
 theme:
   name: material
+  font:
+    text: Roboto
+    code: Fira Code
   features:
     - content.tabs.link
     - navigation.tabs
     - navigation.indexes
     - toc.follow
+    - content.code.copy
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: red
-      #accent: 
+      primary: deep purple
+      accent: cyan
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -33,16 +45,30 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: red
-      #accent:
+      primary: purple
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   
+extra_css:
+  - assets/stylesheets/styles.css 
+
 markdown_extensions:
+  - tables
   - pymdownx.tabbed:
       alternate_style: true 
   - toc:
       permalink: "#"
   - attr_list
   - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      linenums: true
+      pygments_style: monokai
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
