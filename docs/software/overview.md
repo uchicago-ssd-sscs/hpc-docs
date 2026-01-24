@@ -11,4 +11,6 @@ This section provides a catalog of software available on the HPC cluster.
 - **Conda** – Environment and package management system  
 - **Miniforge** – Minimal Conda distribution  
 
-> For instructions on loading and managing software, see the [Modules guide](modules.md) and [Conda guide](conda.md).
+!!! info
+    
+    For instructions on loading and managing software, refer to the [Modules](modules.md) and [Conda](conda.md) guide.

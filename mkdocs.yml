@@ -13,12 +13,11 @@ nav:
 # - Running Jobs:
 #   - Overview: 'jobs/slurm.md'
 #   - Creating First Sbatch Script: 'jobs/creating-your-first-sbatch-scripts.md'
-# - Software & Modules:
-#   - Overview: 'software/overview.md'
-#   - Software Environment & Modules: 'software/software-environment-and-modules.md'
-#   - Modules: 'software/modules.md'
-#   - Conda: 'software/conda.md'
-# - FAQs: 'frequently-asked-questions.md'
+- Software & Modules:
+  - Overview: 'software/overview.md'
+  - Modules: 'software/modules.md'
+  - Conda: 'software/conda.md'
+- FAQs: 'frequently-asked-questions.md'
 # - Connecting: 'connecting/connecting.md'
 # - Globus: 'globus/globus.md'
 # - Slurm: 'slurm/slurm.md'
