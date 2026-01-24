@@ -7,13 +7,20 @@ nav:
   - Connecting to CVPN: 'getting-started/connect-to-vpn.md'
   - Accessing Cluster: 'getting-started/accessing-the-cluster.md'
   - Transferring Data: 'getting-started/data-transfer.md'
-  - Cluster Hardware & Partitions: 'getting-started/cluster-hardware-and-partitions.md'
-  - Sbatch Scripts: 'getting-started/creating-your-first-sbatch-scripts.md'
-  - Software Environment & Modules: 'getting-started/software-environment-and-modules.md'
-- FAQs: 'frequently-asked-questions.md'
+- Cluster Info:
+  - Cluster Partitions: 'hardware/cluster-partitions.md'
+  - Cluster Hardware: 'hardware/cluster-hardware-spec.md'
+# - Running Jobs:
+#   - Overview: 'jobs/slurm.md'
+#   - Creating First Sbatch Script: 'jobs/creating-your-first-sbatch-scripts.md'
+# - Software & Modules:
+#   - Overview: 'software/overview.md'
+#   - Software Environment & Modules: 'software/software-environment-and-modules.md'
+#   - Modules: 'software/modules.md'
+#   - Conda: 'software/conda.md'
+# - FAQs: 'frequently-asked-questions.md'
 # - Connecting: 'connecting/connecting.md'
 # - Globus: 'globus/globus.md'
-# - Partitions: 'partitions/partitions.md'
 # - Slurm: 'slurm/slurm.md'
 # - Software:
 #   - Overview: 'software/overview.md'
