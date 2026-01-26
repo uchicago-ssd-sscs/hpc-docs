@@ -32,7 +32,7 @@ Here’s an example Slurm script that references a Python script (`query_csv.py`
 #SBATCH --mem=4G
 #SBATCH --time=00:30:00
 
-module load python
+module load python/3.12.12
 python3 ~/scripts/query_csv.py
 ```
 
