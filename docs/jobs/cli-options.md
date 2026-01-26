@@ -9,7 +9,7 @@ The below table lists some commonly used `sbatch`/`srun` options as well as thei
 | `--nodes` | `-N` | number of nodes | :material-check: | :material-check: |
 | `--ntasks` | `-n` | number of MPI tasks | :material-check: | :material-check: |
 | `--cpus-per-task` | `-c` | number of processors per MPI task | :material-check: | :material-check: |
-| `--gpus` | `-G` | total number of GPUs (Perlmutter) | :material-check: | :material-check: |
+| `--gpus` | `-G` | total number of GPUs | :material-check: | :material-check: |
 | `--gpus-per-node` | (none) | number of GPUs per node | :material-check: | :material-check: |
 | `--gpus-per-task` | (none) | number of GPUs per MPI task | :material-check: | :material-check: |
 | `--constraint` | `-C` | constraint (e.g., type of resource) | :material-check: | :material-close: |
