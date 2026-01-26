@@ -38,4 +38,4 @@ python3 ~/scripts/query_csv.py
 
 !!! warning
     
-    Load modules within your Slurm scripts, not only on the login node. Compute nodes don't inherit the login node environment, so this ensures consistency and reproducibility.
+    Load modules within your Slurm scripts, not only on the login node, to ensure consistency and reproducibility.
