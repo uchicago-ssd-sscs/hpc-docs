@@ -7,13 +7,21 @@ nav:
   - Connecting to CVPN: 'getting-started/connect-to-vpn.md'
   - Accessing Cluster: 'getting-started/accessing-the-cluster.md'
   - Transferring Data: 'getting-started/data-transfer.md'
-  - Cluster Hardware & Partitions: 'getting-started/cluster-hardware-and-partitions.md'
-  - Sbatch Scripts: 'getting-started/creating-your-first-sbatch-scripts.md'
-  - Software Environment & Modules: 'getting-started/software-environment-and-modules.md'
+- Cluster Info:
+  - Cluster Partitions: 'hardware/cluster-partitions.md'
+  - Cluster Hardware: 'hardware/cluster-hardware-spec.md'
+- Running Jobs:
+  - Overview: 'jobs/overview.md'
+  - Submitting Jobs: 'jobs/submitting-jobs.md'
+  - Command Line Options: 'jobs/cli-options.md'
+  - Creating First Sbatch Script: 'jobs/creating-your-first-sbatch-scripts.md'
+- Software & Modules:
+  - Overview: 'software/overview.md'
+  - Modules: 'software/modules.md'
+  - Conda: 'software/conda.md'
 - FAQs: 'frequently-asked-questions.md'
 # - Connecting: 'connecting/connecting.md'
 # - Globus: 'globus/globus.md'
-# - Partitions: 'partitions/partitions.md'
 # - Slurm: 'slurm/slurm.md'
 # - Software:
 #   - Overview: 'software/overview.md'
@@ -36,8 +44,8 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: deep purple
-      accent: cyan
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -45,8 +53,8 @@ theme:
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: purple
-      accent: cyan
+      primary: custom
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
@@ -72,3 +80,6 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

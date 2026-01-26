@@ -1,4 +1,4 @@
-# Cluster Hardware & Partitions
+# Cluster Partitions
 
 The 6045 cluster consists of 20 compute nodes, 3 GPU nodes, and a dedicated login node.
 

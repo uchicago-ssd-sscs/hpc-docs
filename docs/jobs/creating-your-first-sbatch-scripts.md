@@ -50,4 +50,4 @@
     - Standard error: `hello_world.err`
 
 !!! info 
-    For production or large jobs, always load modules inside your Slurm script using module load so that the compute nodes have the correct environment. For more details, refer to [Software Environment & Modules](software-environment-and-modules.md)
+    For production or large jobs, always load modules inside your Slurm script using module load so that the compute nodes have the correct environment. For more details, refer to [Software Environment & Modules](./../software/modules.md)

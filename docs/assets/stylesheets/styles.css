@@ -35,3 +35,50 @@
     border-radius: 8px !important;
     overflow: hidden !important;
 }
+
+/* Light mode - UChicago Maroon */
+:root {
+  --md-primary-fg-color: #800000;
+  --md-primary-fg-color--light: #9d2235;
+  --md-primary-fg-color--dark: #5c0000;
+  --md-accent-fg-color: #800000;
+  --md-accent-fg-color--transparent: rgba(128, 0, 0, 0.1);
+}
+
+/* Dark mode - Slightly lighter maroon for better contrast */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #9d2235;
+  --md-primary-fg-color--light: #b8374a;
+  --md-primary-fg-color--dark: #800000;
+  --md-accent-fg-color: #b8374a;
+  --md-accent-fg-color--transparent: rgba(184, 55, 74, 0.1);
+}
+
+/* UChicago matching table styling */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  font-size: 0.65rem;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: #800000;
+  color: white;
+  font-weight: 600;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 10px 16px;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: rgba(128, 0, 0, 0.05);
+}
+
+/* Alternating row colors */
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
