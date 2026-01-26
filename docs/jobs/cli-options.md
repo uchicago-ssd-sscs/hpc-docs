@@ -15,7 +15,6 @@ The below table lists some commonly used `sbatch`/`srun` options as well as thei
 | `--constraint` | `-C` | constraint (e.g., type of resource) | :material-check: | :material-close: |
 | `--qos` | `-q` | quality of service (QOS) | :material-check: | :material-close: |
 | `--account` | `-A` | project to charge for this job | :material-check: | :material-close: |
-| `--licenses` | `-L` | licenses (filesystem required for job) | :material-check: | :material-close: |
 | `--job-name` | `-J` | name of job | :material-check: | :material-close: |
 
 !!! info 
