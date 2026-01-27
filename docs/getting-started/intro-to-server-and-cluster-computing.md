@@ -10,8 +10,9 @@
  
 ## Remote Computing: servers, clusters & the Cloud
 
-    ### Server
+   ### Server
+       Servers are out there, not here. They're in another room.
 
-    ### Cluster
+   ### Cluster
 
     ### Cloud
