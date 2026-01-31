@@ -14,7 +14,7 @@
 
 | Attribute             | Description (L40S)                   | Description (H100)                   |
 | :-------------------- | :----------------------------------- | :----------------------------------- |
-| **Node Count**        |  2 nodes (**`gpu[2-3]`**)            |  1 node (**`gpu1`**)            |
+| **Node Count**        |  2 nodes (**`gpu[2-3]`**)            |  1 node (**`gpu1`**)                 |
 | **Processor**         |  Intel Xeon Gold 6430                |  Intel Xeon Gold 6430                |
 | **CPU Configuration** |  128 CPUs/node <br> (2 sockets × 32 cores × 2 threads)  |  128 CPUs/node <br> (2 sockets × 32 cores × 2 threads)  |
 | **Memory per Node**   |  773,344 MB (~755 GB)                |  1,547,488 MB (~1.48 TB)             |

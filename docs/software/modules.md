@@ -32,10 +32,10 @@ Here’s an example Slurm script that references a Python script (`query_csv.py`
 #SBATCH --mem=4G
 #SBATCH --time=00:30:00
 
-module load python
+module load python/3.12.12
 python3 ~/scripts/query_csv.py
 ```
 
 !!! warning
     
-    Load modules within your Slurm scripts, not only on the login node. Compute nodes don't inherit the login node environment, so this ensures consistency and reproducibility.
+    Load modules within your Slurm scripts, not only on the login node, to ensure consistency and reproducibility.
