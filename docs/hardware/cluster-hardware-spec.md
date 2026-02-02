@@ -8,7 +8,7 @@
 | **Processor**         |  Intel Xeon Platinum 8452Y           |
 | **CPU Configuration** |  144 CPUs/node <br> (2 sockets × 36 cores × 2 threads)  |
 | **Memory per Node**   |  515,283 MB (~503 GB)                |
-| **Architecture**      |  Sapphire Rapids                     |
+| **Architecture**      |  x86_64 (     Sapphire Rapids)       |
 
 ### GPU Nodes
 

@@ -7,6 +7,8 @@ nav:
   - Connecting to CVPN: 'getting-started/connect-to-vpn.md'
   - Accessing Cluster: 'getting-started/accessing-the-cluster.md'
   - Transferring Data: 'getting-started/data-transfer.md'
+  - Basics of HPC Cluster: 'getting-started/basics-of-hpc-cluster.md'
+  - Basics of SLURM: 'getting-started/basics-of-slurm.md'
 - Cluster Info:
   - Cluster Partitions: 'hardware/cluster-partitions.md'
   - Cluster Hardware: 'hardware/cluster-hardware-spec.md'
@@ -15,22 +17,25 @@ nav:
   - Submitting Jobs: 'jobs/submitting-jobs.md'
   - Command Line Options: 'jobs/cli-options.md'
   - Creating First Sbatch Script: 'jobs/creating-your-first-sbatch-scripts.md'
+  - Monitoring & Managing Jobs: 'jobs/monitoring-and-managing-jobs.md'
+  - Common Workflows: 'jobs/common-workflows.md'
 - Software & Modules:
   - Overview: 'software/overview.md'
   - Modules: 'software/modules.md'
-  - Conda: 'software/conda.md'
+  - Conda Envrionment: 'software/conda.md'
+- Globus: 
+  - Overview: 'globus/overview.md'
+  - Logging In to Globus: 'globus/logging-in-to-globus.md'
+  - File Transfer with Globus: 'globus/file-transfer-with-globus.md'
 - FAQs: 'frequently-asked-questions.md'
 # - Connecting: 'connecting/connecting.md'
-# - Globus: 'globus/globus.md'
 # - Slurm: 'slurm/slurm.md'
-# - Software:
-#   - Overview: 'software/overview.md'
-#   - Modules: 'software/modules.md'
-#   - Conda: 'software/conda.md'
 # - Hardware: 'hardware/overview.md'
 
 theme:
   name: material
+  logo: assets/icons/icon.png
+  favicon: assets/icons/icon.ico
   font:
     text: Roboto
     code: Fira Code
@@ -58,7 +63,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  
+
 extra_css:
   - assets/stylesheets/styles.css 
 

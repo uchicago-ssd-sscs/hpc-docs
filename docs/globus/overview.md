@@ -1,0 +1,3 @@
+# Overview
+
+[Globus](https://www.globus.org/) is the recommended way to move significant amounts of data between SSCS and other sites. Globus addresses many of the common challenges faced by researchers in moving, sharing, and archiving large volumes of data. With Globus, you hand-off data movement tasks to a hosted service that manages the entire operation, monitoring performance and errors, retrying failed transfers, correcting problems automatically whenever possible, and reporting status to keep you informed while you focus on your research. Visit [Globus.org](https://www.globus.org/) for documentation on its easy to use web interface and its versatile REST/API for building scripted tasks and operations.
