@@ -10,6 +10,8 @@
 | **Memory per Node**   |  515,283 MB (~503 GB)                |
 | **Architecture**      |  x86_64 (     Sapphire Rapids)       |
 
+> QOS required for Compute Nodes (CPU): `normal` (default)
+
 ### GPU Nodes
 
 | Attribute             | Description (L40S)                   | Description (H100)                   |
@@ -22,4 +24,8 @@
 | **GPU Memory**        |  48 GB per GPU                       |  80 GB per GPU                       |
 | **GPU Architecture**  |  NVIDIA Ada Lovelace                 |  NVIDIA Hopper                       |
 
+> QOS required for GPU Nodes: `gpu`
 
+!!!info
+    
+    For more information, see [Quality of Service (QoS)](./../cluster-partitions/#qos-quality-of-service) Options. 
