@@ -1,4 +1,4 @@
-site_name: SSCS Cluster Documentation
+site_name: SSCS 6045 Cluster
 site_url: https://uchicago-ssd-sscs.github.io/hpc-docs
 nav:
 - Home: 'index.md'
@@ -12,6 +12,7 @@ nav:
 - Cluster Info:
   - Cluster Partitions: 'hardware/cluster-partitions.md'
   - Cluster Hardware: 'hardware/cluster-hardware-spec.md'
+  - Directory Structure: 'hardware/directory-structure.md'
 - Running Jobs:
   - Overview: 'jobs/overview.md'
   - Submitting Jobs: 'jobs/submitting-jobs.md'
@@ -27,6 +28,7 @@ nav:
   - Overview: 'globus/overview.md'
   - Logging In to Globus: 'globus/logging-in-to-globus.md'
   - File Transfer with Globus: 'globus/file-transfer-with-globus.md'
+- Advanced Workflows: 'advanced-workflows/index.md'
 - FAQs: 'frequently-asked-questions.md'
 # - Connecting: 'connecting/connecting.md'
 # - Slurm: 'slurm/slurm.md'
