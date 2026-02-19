@@ -35,3 +35,6 @@ Compute nodes are where the actual work happens. These are the powerful machines
     - Not directly accessible via SSH (you must go through the scheduler)
     - Equipped with high-performance processors and accelerators
     - Isolated from other users' jobs for fair resource allocation
+
+
+> For details on available partitions, node types, and resource limits, see [Cluster Partitions](./../hardware/cluster-partitions.md).
