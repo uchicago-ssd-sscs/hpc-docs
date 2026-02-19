@@ -17,7 +17,7 @@ The 6045 cluster consists of:
 
 - **20 compute nodes** (CPU)
 - **3 GPU nodes** (specialized accelerators)
-- **1 dedicated login node**
+- **2 dedicated login node**
 
 ---
 
