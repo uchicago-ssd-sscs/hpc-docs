@@ -1,12 +1,15 @@
 # Conda Environment
 
-Conda is an open-source package and environment management system that allows you to create isolated environments with specific Python versions and packages. On the cluster, Conda is available via the **Miniforge** module, which provides a lightweight, conda-forge-based distribution. Upon loading the module, the `base` Conda environment is automatically activated.
+Conda is an open-source package and environment management system that allows you to create isolated environments with specific Python versions and packages. On the cluster, Conda is available via the **Miniconda module**. Upon loading the module, the `base` Conda environment is automatically activated.
+
+!!! info "Module Alias"
+    The `miniconda` module is the recommended interface. Internally, it loads the **Miniforge distribution**, which is fully compatible with Miniconda and uses the conda-forge ecosystem.
 
 ## Quick Reference
 
 | Task | Command |
 |------|---------|
-| Load Conda module | `module load miniforge` |
+| Load Conda module | `module load miniconda` |
 | Create environment | `conda create -n myenv python=3.11` |
 | Activate environment | `conda activate myenv` |
 | Deactivate environment | `conda deactivate` |
@@ -23,11 +26,11 @@ Conda is an open-source package and environment management system that allows yo
 ### Loading the Module
 
 ```bash
-module load python/miniforge-25.9.1
+module load miniconda
 ```
 
 !!! note "Base Environment"
-    Loading the Miniforge module automatically activates the `base` Conda environment. Avoid installing packages into `base` — always create a project-specific environment instead.
+    Loading the Miniconda module automatically activates the `base` Conda environment. Avoid installing packages into `base` — always create a project-specific environment instead.
 
 ### Creating and Activating an Environment
 
@@ -57,7 +60,7 @@ conda install numpy pandas scikit-learn
 #SBATCH --output=output_%j.log
 
 # Load Conda and activate your environment
-module load python/miniforge-25.9.1
+module load miniconda
 conda activate myenv
 
 # Run your script
@@ -70,8 +73,6 @@ conda deactivate
 ## Best Practices
 
 - **Never install into** `base` — always create project-specific environments.
-- **Pin package versions** in `environment.yml` for reproducibility.
-- **Export your environment** regularly and keep it in version control.
 - **Clean up unused environments** to conserve disk quota — Conda environments can be large.
 - **Prefer Conda over pip** where possible; use pip only for packages unavailable in Conda.
 
@@ -90,10 +91,10 @@ conda install package2
 
 ### Slow Installation: 
 
-Use **Mamba**, a faster drop-in replacement for Conda:
+Modern Conda includes the **libmamba solver**, which significantly improves installation speed. Enable it once, then use Conda normally:
 
 ```bash
-conda install -c conda-forge mamba
+conda config --set solver libmamba
 mamba install numpy pandas
 ```
 
