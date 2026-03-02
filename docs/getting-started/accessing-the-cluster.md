@@ -4,7 +4,7 @@
 
 After connecting the VPN, SSH into the login node using a terminal on your personal device (Mac, Windows, Linux, etc.):
 
-The example below is for the **login node 1** (ln1):
+The example below is for the **login node 1** (Cronus):
 ```bash linenums="1"
 ssh username@10.49.193.5
 ```
@@ -35,7 +35,7 @@ After connecting to the cVPN:
 
 3. In the **RealVNC Connect** address bar, enter the login node hostname or IP address followed by the VNC port (`5999`).
 
-    > **Example for login node 1 (ln1):**
+    > **Example for login node 1 (Cronus):**
     
     > `10.49.193.5:5999`
 
