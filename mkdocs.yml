@@ -1,4 +1,4 @@
-site_name: SSCS Cluster Documentation
+site_name: SSCS New Cluster
 site_url: https://uchicago-ssd-sscs.github.io/hpc-docs
 nav:
 - Home: 'index.md'
@@ -12,6 +12,7 @@ nav:
 - Cluster Info:
   - Cluster Partitions: 'hardware/cluster-partitions.md'
   - Cluster Hardware: 'hardware/cluster-hardware-spec.md'
+  - Directory Structure: 'hardware/directory-structure.md'
 - Running Jobs:
   - Overview: 'jobs/overview.md'
   - Submitting Jobs: 'jobs/submitting-jobs.md'
@@ -27,6 +28,9 @@ nav:
   - Overview: 'globus/overview.md'
   - Logging In to Globus: 'globus/logging-in-to-globus.md'
   - File Transfer with Globus: 'globus/file-transfer-with-globus.md'
+- Advanced Workflows:
+  - Ollama Guide: 'advanced-workflows/ollama-guide.md'
+  - Jupyter via VSCode Guide: 'advanced-workflows/jupyter-notebook-via-vs-code.md'
 - FAQs: 'frequently-asked-questions.md'
 # - Connecting: 'connecting/connecting.md'
 # - Slurm: 'slurm/slurm.md'
@@ -36,15 +40,18 @@ theme:
   name: material
   logo: assets/icons/icon.png
   favicon: assets/icons/icon.ico
+  custom_dir: docs/overrides
   font:
     text: Roboto
-    code: Fira Code
+    code: Roboto Mono
   features:
     - content.tabs.link
     - navigation.tabs
     - navigation.indexes
     - toc.follow
     - content.code.copy
+    - content.action.view
+    - navigation.instant
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -65,7 +72,8 @@ theme:
         name: Switch to light mode
 
 extra_css:
-  - assets/stylesheets/styles.css 
+  - assets/stylesheets/styles.css
+  - assets/stylesheets/footer.css
 
 markdown_extensions:
   - tables
@@ -88,3 +96,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  generator: false
+
+copyright: ""

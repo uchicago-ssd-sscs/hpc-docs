@@ -1,5 +1,20 @@
 # Monitoring and Managing Jobs
 
+## SLURM Quick Reference
+
+| Task | Command | Example |
+|------|---------|---------|
+| Submit batch job | [`sbatch`](./../submitting-jobs/#sbatch) | `sbatch job.sh` |
+| Interactive job | [`srun`](./../submitting-jobs/#srun) | `srun --pty bash` |
+| View your jobs | [`squeue -u`](./../monitoring-and-managing-jobs/#squeue-view-job-queue) | `squeue -u $USER` |
+| Job details | [`scontrol show job`](./../monitoring-and-managing-jobs/#scontrol-show-job-detailed-job-information) | `scontrol show job <job-id>` |
+| Cancel job | [`scancel`](./../monitoring-and-managing-jobs/#scancel-cancel-jobs) | `scancel <job-id>` |
+| View partitions | [`sinfo`](./../monitoring-and-managing-jobs/#sinfo-partition-and-node-information) | `sinfo -p <partition-name>` |
+| Job history | [`sacct`](./../monitoring-and-managing-jobs/#sacct-job-accounting-information) | `sacct -j <job-id>` |
+| SSH to node | [`ssh`](./../monitoring-and-managing-jobs/#ssh-into-running-jobs) | `ssh <node-id>` |
+| GPU monitoring | [`nvidia-smi`](./../monitoring-and-managing-jobs/#checking-gpu-usage) | `nvidia-smi` |
+| Real-time stats | [`sstat`](./../monitoring-and-managing-jobs/#sstat-real-time-job-statistics) | `sstat -j <job-id>` |
+
 ## Monitoring Job Status
 
 ### **squeue** - View Job Queue
@@ -303,4 +318,4 @@ ps aux | grep $USER
     - [Slurm Official Documentation](https://slurm.schedmd.com/)
     - [Slurm Command Summary](https://slurm.schedmd.com/pdfs/summary.pdf)
     - Use `man <command>` for detailed command documentation (e.g., `man sbatch`)
-    - Contact cluster support for issues specific to your system
+    - Contact cluster support ([ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu)) for issues specific to your system
