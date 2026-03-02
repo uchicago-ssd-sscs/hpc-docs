@@ -1,4 +1,4 @@
-/* Code font option - Monaspace */
+/*Code font option - Monaspace (optional)*/
 /*@font-face {
   font-family: 'Monaspace Neon';
   src: url('../fonts/MonaspaceNeon-Regular.otf') format('opentype');
@@ -14,12 +14,14 @@
   font-family: 'Monaspace Neon', monospace !important;
 }*/
 
+/*Typography sizing*/
+
 /* Reduce overall body text */
 .md-typeset {
   font-size: 0.75rem;  /* default is 1rem (16px) */
 }
 
-/* Reduce code block font size */
+/* Reduce inline code font size */
 .md-typeset code {
   font-size: 0.6rem;
 }
@@ -29,14 +31,21 @@
   font-size: 0.6rem;
 }
 
+
+
+/*Code block styling*/
 /* Round the entire code block container */
 .md-typeset div.highlight,
 .md-typeset .highlighttable {
-    border-radius: 8px !important;
-    overflow: hidden !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  margin-top: 2px;
 }
 
-/* Light mode - UChicago Maroon */
+
+
+/*Color scheme (UChicago Maroon)*/
+/* Light mode */
 :root {
   --md-primary-fg-color: #800000;
   --md-primary-fg-color--light: #9d2235;
@@ -45,7 +54,7 @@
   --md-accent-fg-color--transparent: rgba(128, 0, 0, 0.1);
 }
 
-/* Dark mode - Slightly lighter maroon for better contrast */
+/* Dark mode */
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color: #9d2235;
   --md-primary-fg-color--light: #b8374a;
@@ -54,7 +63,9 @@
   --md-accent-fg-color--transparent: rgba(184, 55, 74, 0.1);
 }
 
-/* UChicago matching table styling */
+
+
+/*Table styling*/
 .md-typeset table:not([class]) {
   border: 1px solid var(--md-default-fg-color--lightest);
   border-radius: 8px;
@@ -83,6 +94,7 @@
   background-color: rgba(0, 0, 0, 0.02);
 }
 
+/*Text alignment*/
 /* Only justify main content area */
 .md-content__inner p {
   text-align: justify;
@@ -94,11 +106,48 @@ pre, code, .md-nav, .md-header {
   text-align: left !important;
 }
 
-/* Set logo max dimensions */
+/*Header logo sizing*/
 .md-header__button.md-logo img,
 .md-logo img {
   max-height: 60px;
   max-width: 60px;
   width: auto;
   height: auto;
+}
+
+
+.md-typeset a:not(.headerlink):not(.toclink):not(.md-annotation__index) {
+  color: var(--md-accent-fg-color);
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.md-typeset a:not(.headerlink):not(.toclink):not(.md-annotation__index):hover {
+  color: var(--md-primary-fg-color--dark);
+  text-decoration-style: solid;
+}
+
+.md-typeset a[href^="http"]:not(.headerlink):not(.toclink):not(.md-annotation__index):after {
+  content: "↗";
+  font-size: 0.75em;
+  margin-left: 0.2em;
+  opacity: 0.6;
+}
+
+.md-typeset .highlight a,
+.md-typeset .highlighttable a,
+.md-typeset .linenos a,
+.md-typeset .linenodiv a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.md-typeset .highlight a:after,
+.md-typeset .highlighttable a:after,
+.md-typeset .linenos a:after,
+.md-typeset .linenodiv a:after {
+  content: none !important;
 }
