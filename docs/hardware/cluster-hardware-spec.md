@@ -14,15 +14,16 @@
 
 ### GPU Nodes
 
-| Attribute             | Description (L40S)                   | Description (H100)                   |
-| :-------------------- | :----------------------------------- | :----------------------------------- |
-| **Node Count**        |  2 nodes (**`gpu[2-3]`**)            |  1 node (**`gpu1`**)                 |
-| **Processor**         |  Intel Xeon Gold 6430                |  Intel Xeon Gold 6430                |
-| **CPU Configuration** |  128 CPUs/node <br> (2 sockets × 32 cores × 2 threads)  |  128 CPUs/node <br> (2 sockets × 32 cores × 2 threads)  |
-| **Memory per Node**   |  773,344 MB (~755 GB)                |  1,547,488 MB (~1.48 TB)             |
-| **GPUs per Node**     |  2 × NVIDIA L40S                     |  2 × NVIDIA H100                     |
-| **GPU Memory**        |  48 GB per GPU                       |  80 GB per GPU                       |
-| **GPU Architecture**  |  NVIDIA Ada Lovelace                 |  NVIDIA Hopper                       |
+| Attribute             | Description (H100)                   | Description (L40S)                   
+| :-------------------- | :----------------------------------- | :----------------------------------- 
+| **Node Count**        |  1 node (**`gpu1`**)                 |  2 nodes (**`gpu[2-3]`**)            
+| **Processor**         |  Intel Xeon Gold 6430                |  Intel Xeon Gold 6430                
+| **CPU Configuration** |  128 CPUs/node <br> (2 sockets × 32 cores × 2 threads)  | 128 CPUs/node <br> (2 sockets × 32 cores × 2 threads)  |
+| **Memory per Node**   |  1,547,488 MB (~1.48 TB)             |  773,344 MB (~755 GB)                
+| **GPUs per Node**     |  2 × NVIDIA H100                     |  2 × NVIDIA L40S                     
+| **GPU Memory**        |  80 GB per GPU                       |  48 GB per GPU                       
+| **GPU Architecture**  |  NVIDIA Hopper                       |  NVIDIA Ada Lovelace                 
+| **QoS Option**        |  **TBD**                             |  `gpu`                 
 
 > QOS required for GPU Nodes: `gpu`
 
