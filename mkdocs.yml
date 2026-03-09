@@ -31,6 +31,7 @@ nav:
 - Advanced Workflows:
   - Ollama Guide: 'advanced-workflows/ollama-guide.md'
   - Jupyter via VSCode Guide: 'advanced-workflows/jupyter-notebook-via-vs-code.md'
+  - VSCode via VNCViewer: 'advanced-workflows/vscode-via-vncviewer.md'
 - FAQs: 'frequently-asked-questions.md'
 # - Connecting: 'connecting/connecting.md'
 # - Slurm: 'slurm/slurm.md'
