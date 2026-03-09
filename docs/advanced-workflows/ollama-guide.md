@@ -51,10 +51,6 @@ module list               # view activate/loaded modules
 # Specify ollama to run on localhost on a random port.
 export OLLAMA_HOST=localhost:$(shuf -n1 -i60000-65000)
 
-# Specify path to directory where ollama models will be stored.
-# If not specified, ollama will default to /home/$USER/.ollama/models.
-export OLLAMA_MODELS=/path/to/your/models
-
 # Note: SSCS maintains a read only directory of preinstalled models on gpu nodes.
 # export OLLAMA_MODELS="${SSCS_LLMS}/ollama/models"
 ```
@@ -99,7 +95,7 @@ fg 1 # bring background process "1" (ollama serve) to foreground
 # Press Ctrl+C to stop the current foreground process
 
 # Re-export any ollama server configs, e.g.:
-export OLLAMA_MODELS=/path/to/models
+export OLLAMA_MODELS="${SSCS_LLMS}/ollama/models"
 export OLLAMA_CONTEXT_LENGTH=32768
 
 # Relaunch ollama server
@@ -139,10 +135,7 @@ Example batch script for submitting a job to a compute node which launches an ol
     export OLLAMA_MODELS="${SSCS_LLMS}/ollama/models"
     ```
     
-    You can specify path to directory where ollama models will be stored. If not specified, ollama will default to `/home/$USER/.ollama/models`.
-    ```bash
-    export OLLAMA_MODELS=/path/to/your/models
-    ```
+    If a model you need is not available, reach out to the Cluster Support team at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu) to request it be pulled in.
 
 ```bash
 #!/usr/bin/env bash
