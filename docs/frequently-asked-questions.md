@@ -16,3 +16,34 @@ Our group maintains access to a number of statistical and programming packages f
 !!! info "Need More Help?"
 
     Contact the Cluster Support team at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu)
+
+## Jobs
+
+#### How do I check my job status?
+    
+Use the [`squeue`](./../monitoring-and-managing-jobs/#squeue-view-job-queue) command to check the status of your jobs. Each job will show a State Code indicating its current status.
+
+??? info "Job State Codes"
+
+    The following tables outline a variety of job state and reason codes you may encounter when using squeue to check on your jobs.
+
+    | Status      | Code | Explanation                                                          |
+    |-------------|------|----------------------------------------------------------------------|
+    | COMPLETED   | `CD` | The job has completed successfully.                                  |
+    | COMPLETING  | `CG` | The job is finishing but some processes are still active.            |
+    | FAILED      | `F`  | The job terminated with a non-zero exit code and failed to execute.  |
+    | PENDING     | `PD` | The job is waiting for resource allocation. It will eventually run.  |
+    | PREEMPTED   | `PR` | The job was terminated because of preemption by another job.         |
+    | RUNNING     | `R`  | The job is currently allocated to a node and is running.             |
+    | SUSPENDED   | `S`  | A running job has been stopped with its cores released to other jobs.|
+    | STOPPED     | `ST` | A running job has been stopped with its cores retained.              |
+
+For more details on submitting and managing jobs, visit our [Running Jobs](./../jobs/overview/) Page.
+
+## Usage Policy
+
+#### New SSCS Cluster Usage Policy?
+
+The SSCS cluster is intended for academic research and instructional use by authorized University of Chicago faculty, students, and staff. Users are expected to use cluster resources responsibly, avoid monopolizing shared compute. Unauthorized or commercial workloads are not permitted on the cluster.
+
+For questions about permitted use, contact us at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu).
