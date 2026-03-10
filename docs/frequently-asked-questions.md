@@ -21,7 +21,7 @@ Our group maintains access to a number of statistical and programming packages f
 
 #### How do I check my job status?
     
-Use the [`squeue`](./../monitoring-and-managing-jobs/#squeue-view-job-queue) command to check the status of your jobs. Each job will show a State Code indicating its current status.
+Use the [`squeue`](./../jobs/monitoring-and-managing-jobs#monitoring-job-status) command to check the status of your jobs. Each job will show a State Code indicating its current status.
 
 ??? info "Job State Codes"
 
