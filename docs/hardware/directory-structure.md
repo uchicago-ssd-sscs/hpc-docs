@@ -19,7 +19,7 @@ Your personal home directory, automatically assigned upon account creation. This
 
 ## /scratch/<cnet_id\>
 
-A high-capacity local disk available exclusively on compute nodes, intended for temporary storage during job execution. A personal directory under `/scratch/<cnetid>` is automatically created when you start a job.
+A high-capacity local disk available exclusively on compute nodes, intended for temporary storage during job execution. A personal directory under `/scratch/<cnetid>` is automatically created when you start a job. The `/scratch` directory is only accessible during an active job — you must have a running job to read or write to this space.
 
 - **Filesystem:** Local Disk
 - **Total Capacity:** 6.4T
@@ -73,9 +73,11 @@ A large shared NFS filesystem accessible to authorized research groups, labs, an
 
     Once access is granted, your lab’s shared directory is available at:
     ```bash
-    cd /share/<lab_name>
+    cd /share/johndoelab
     ```
-    (Underlying path: `/mnt/share/<lab_name>`)
+    **Permissions note** — who can read/write:
+
+      > Only members of the `johndoelab` group have read/write access to this directory.
 
 ## Filesystem Snapshots (Backup)
 
@@ -102,6 +104,7 @@ Snapshots are managed automatically by the storage system and older snapshots ar
 
 If you need to recover a file or directory, please contact the cluster support team at [**ssc-server-support@lists.uchicago.edu**](mailto:ssc-server-support@lists.uchicago.edu), with the following information:
 
+- Name of file or directory
 - Full path to the file or directory  
 - Approximate date and time when the file existed  
 - Your username and lab/group (if applicable)

@@ -140,6 +140,10 @@ print(f"Job ID: {os.environ['SLURM_JOB_ID']}")
 > Job ID: 1234
 ```
 
+!!! note
+    The hostname will reflect whichever compute node your job was allocated to —
+    this could be any general compute node (`sn1`–`sn20`) or a GPU node (`gpu1`–`gpu3`) if requested.
+
 ### Step 8: Cancel job when finished
 
 When you are doing working, cancel your batch job:
