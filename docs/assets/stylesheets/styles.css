@@ -151,3 +151,48 @@ pre, code, .md-nav, .md-header {
 .md-typeset .linenodiv a:after {
   content: none !important;
 }
+
+/* ─── Blog Feed ─────────────────────────────────────────────── */
+
+/* Entry card - left maroon accent border */
+.md-post {
+  border-left: 3px solid #800000;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem !important;
+}
+
+/* Metadata line (date, category, read time) */
+.md-post .md-meta {
+  font-size: 0.65rem !important;
+  opacity: 0.75;
+  margin-bottom: -0.3rem !important;
+}
+
+/* Post header */
+.md-post__header {
+  margin-bottom: 0 !important;
+}
+
+/* Post title */
+.md-post h2 {
+  font-size: 1rem !important;
+  margin-top: 0rem !important;
+  margin-bottom: 0 !important;
+}
+
+/* Excerpt content */
+.md-post__content p {
+  font-size: 0.7rem !important;
+  margin-top: 0.2rem !important;
+  margin-bottom: 0 !important;
+}
+
+/* Continue reading link */
+.md-post__action {
+  margin-top: 0.2rem !important;
+  margin-bottom: 0 !important;
+}
+
+.md-post__action a {
+  font-size: 0.65rem !important;
+}
