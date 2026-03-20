@@ -3,7 +3,7 @@ site_url: https://uchicago-ssd-sscs.github.io/hpc-docs
 nav:
 - Home: 'index.md'
 - Getting Started: 
-  - Overview: 'getting-started/overview.md'
+  # - Overview: 'getting-started/overview.md'
   - Connecting to CVPN: 'getting-started/connect-to-vpn.md'
   - Accessing Cluster: 'getting-started/accessing-the-cluster.md'
   - Transferring Data: 'getting-started/data-transfer.md'
