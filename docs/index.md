@@ -15,6 +15,9 @@ Explore the cluster hardware, available partitions, node specifications, and sto
 **[Running Jobs](jobs/overview.md)**
 Learn how to write and submit SLURM batch scripts, monitor job status, and make the most of available compute resources.
 
+**[Globus](globus/overview.md)**
+Transfer large datasets to and from the cluster securely and efficiently using Globus.
+
 **[FAQs](frequently-asked-questions.md)**
 Find answers to common questions about access, storage, jobs, and software.
 
