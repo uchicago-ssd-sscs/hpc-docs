@@ -40,6 +40,10 @@ Use the [`squeue`](./../jobs/monitoring-and-managing-jobs#monitoring-job-status)
 
 For more details on submitting and managing jobs, visit our [Running Jobs](./../jobs/overview/) Page.
 
+#### Can I request access to GPU nodes?
+
+GPU nodes are available for research workloads requiring accelerated computing. If you have a use case that requires GPU resources, reach out to the Cluster Support team at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu) to discuss your requirements and get access.
+
 ## Usage Policy
 
 #### New SSCS Cluster Usage Policy?
