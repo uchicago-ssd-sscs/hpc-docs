@@ -77,6 +77,10 @@ The 6045 cluster consists of:
 - Optimized for GPU-accelerated jobs
 - Use with the GPU partition for machine learning, CUDA applications, and GPU-intensive tasks
 
+!!! note "GPU Node Access"
+
+    GPU nodes are allocated based on research use case. If your workflow requires GPU resources, contact the Cluster Support team at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu) before submitting jobs to a GPU partition. The team will review your use case and configure the appropriate QoS options for your account.
+
 ---
 
 ## Best Practices

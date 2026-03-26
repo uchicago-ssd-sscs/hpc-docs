@@ -15,6 +15,9 @@ We recommended following tools to move files between your local machine and the 
 
 3. **Command Line Transfers** 
 
+    !!! note
+        Run these from your local device (***not on the cluster***). 
+
     **SCP**
 
     ```bash
@@ -26,6 +29,3 @@ We recommended following tools to move files between your local machine and the 
     ```bash
     rsync -avP <username>@cronus.uchicago.edu:/home/<username>/path/to/dir ~/local/destination/
     ```
-
-    !!! warning
-        Run these from your local device (***not on the cluster***). 

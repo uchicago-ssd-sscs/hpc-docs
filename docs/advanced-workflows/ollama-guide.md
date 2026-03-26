@@ -27,7 +27,7 @@ Interactive jobs are useful for becoming more familiar with the ollama workflow,
 1. First, log into the cluster and confirm your are on a login node. Then launch an interactive job (e.g. max runtime 1 hour, 1 cpu, 1 L40S gpu, and 56G RAM)
 ```bash
 hostname
-> Cronus
+> cronus
 
 srun --partition=l40s --qos=gpu --time=00-01:00:00 \
      --ntasks=1 --cpus-per-task=1 --gpus=1 --mem=56G \
