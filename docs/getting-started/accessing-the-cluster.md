@@ -6,7 +6,7 @@ After connecting the VPN, SSH into the login node using a terminal on your perso
 
 The example below is for the **login node 1** (Cronus):
 ```bash linenums="1"
-ssh username@10.49.193.5
+ssh username@cronus.uchicago.edu
 ```
 The `username` field is your CNET ID only, not your full email address.
 
@@ -37,7 +37,7 @@ After connecting to the cVPN:
 
     > **Example for login node 1 (Cronus):**
     
-    > `10.49.193.5:5999`
+    > `cronus.uchicago.edu:5999`
 
 
 4. Press **Enter**.
