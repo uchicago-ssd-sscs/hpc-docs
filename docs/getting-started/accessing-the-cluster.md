@@ -2,7 +2,7 @@
 
 ## Secure Shell Connect
 
-After connecting the VPN, SSH into the login node using a terminal on your personal device (Mac, Windows, Linux, etc.):
+After connecting the VPN<sup><b>#</b></sup>, SSH into the login node using a terminal on your personal device (Mac, Windows, Linux, etc.):
 
 The examples below cover all available login nodes. Select the tab for your assigned cluster:
 
@@ -29,6 +29,9 @@ The `username` field is your CNET ID only, not your full email address.
 !!! warning
     Login nodes are shared interactive systems built for file transfer, file editing and testing. **_Do not run heavy computations here_.**
 
+!!! note "<sup><b>#</b></sup> Network Access"
+
+    **On-campus users can connect to the cluster directly without VPN**. If you are off-campus, connect to the [UChicago CVPN](./connect-to-vpn.md) before attempting to access the cluster.
 
 ## SSH Tools
 
@@ -47,7 +50,11 @@ After connecting to the cVPN:
 
 1. Download and install **VNC Viewer** from the [RealVNC website](https://www.realvnc.com/en/connect/download/viewer/){:target="_blank"}.
 
+    ![Download VNC Viewer](./../assets/images/s1-vncviewer.png)
+
 2. Open **VNC Viewer**.
+
+    ![Open VNC Viewer](./../assets/images/s2-vncviewer.png)
 
 3. In the **RealVNC Connect** address bar, enter the login node hostname or IP address followed by the VNC port (`5999`).
 
@@ -55,12 +62,19 @@ After connecting to the cVPN:
     
     > `cronus.uchicago.edu:5999`
 
+    ![RealVNC Connect](./../assets/images/s3-vncviewer.png)
 
 4. Press **Enter**.
 
 5. When prompted, log in using your **CNET ID username** (not your full email address) and password.
 
+    ![RealVNC Connect](./../assets/images/s4-vncviewer.png)
+
+    ![RealVNC Connect](./../assets/images/s5-vncviewer.png)
+
 6. Accept any security or certificate prompt if displayed.
+
+    ![RealVNC Connect](./../assets/images/s7-vncviewer.png)
 
 ---
 
