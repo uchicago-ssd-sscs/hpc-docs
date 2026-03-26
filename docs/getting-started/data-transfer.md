@@ -18,13 +18,13 @@ We recommended following tools to move files between your local machine and the 
     **SCP**
 
     ```bash
-    scp <username>@10.49.193.5:/home/<username>/path/to/file ~/local/destination/
+    scp <username>@cronus.uchicago.edu:/home/<username>/path/to/file ~/local/destination/
     ```
 
     **RSYNC**
 
     ```bash
-    rsync -avP <username>@10.49.193.5:/home/<username>/path/to/dir ~/local/destination/
+    rsync -avP <username>@cronus.uchicago.edu:/home/<username>/path/to/dir ~/local/destination/
     ```
 
     !!! warning
