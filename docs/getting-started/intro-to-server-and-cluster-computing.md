@@ -7,6 +7,7 @@
 - No network connection required
 - Programs run only while the computer is running
 - Vulnerable to loss, theft, failure, and budget
+- Other kidns of things are elsewhere
  
 ## Remote Computing: servers, clusters & the Cloud
 

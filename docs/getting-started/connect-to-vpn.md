@@ -1,6 +1,6 @@
 # Connect to the University VPN (CVPN)
 
-Before you can access the cluster, you must connect to the University of Chicago VPN (CVPN).
+Before you can access the cluster from off-campus, you must connect to the University of Chicago VPN (CVPN).
 
 1. Install the VPN from [https://vpn.uchicago.edu](https://vpn.uchicago.edu)
 2. Use your CNet credentials to configure and connect
