@@ -6,7 +6,7 @@ Creates a new blog post with correct frontmatter and filename
 
 import os
 import re
-from datetime import date
+from datetime import date, datetime
 
 CATEGORIES = ["Infrastructure", "Software", "Maintenance", "General"]
 
@@ -24,6 +24,20 @@ def select_category():
         if choice.isdigit() and 1 <= int(choice) <= len(CATEGORIES):
             return CATEGORIES[int(choice) - 1]
         print("Invalid choice, try again...")
+
+
+def prompt_date():
+    """Prompt user for a date in YYYY-MM-DD format, defaults to today."""
+    today = date.today().isoformat()
+    while True:
+        entry = input(f"Post date (YYYY-MM-DD) [default: {today}]: ").strip()
+        if not entry:
+            return today
+        try:
+            datetime.strptime(entry, "%Y-%m-%d")
+            return entry
+        except ValueError:
+            print("Invalid format, please use YYYY-MM-DD (e.g. 2026-03-18)...")
 
 
 def find_project_root():
@@ -57,16 +71,16 @@ def main():
     title = input("Post title: ").strip()
     excerpt = input("Excerpt (1-2 sentences shown on index): ").strip()
     category = select_category()
+    post_date = prompt_date()
 
-    today = date.today().isoformat()
     slug = slugify(title)
-    filename = f"{today}-{slug}.md"
+    filename = f"{post_date}-{slug}.md"
     filepath = os.path.join(POSTS_DIR, filename)
 
     os.makedirs(POSTS_DIR, exist_ok=True)
 
     content = f"""---
-date: {today}
+date: {post_date}
 categories:
 - {category}
 ---
