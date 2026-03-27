@@ -196,3 +196,7 @@ pre, code, .md-nav, .md-header {
 .md-post__action a {
   font-size: 0.65rem !important;
 }
+
+.md-content img {
+  border-radius: 8px;
+}
