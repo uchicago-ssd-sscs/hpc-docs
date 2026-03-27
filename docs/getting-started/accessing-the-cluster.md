@@ -72,6 +72,9 @@ After connecting to the cVPN:
 
     ![RealVNC Connect](./../assets/images/s5-vncviewer.png)
 
+    !!! Info
+        Once your login is approved via Duo, you may be returned to the credentials prompt. If so, click **OK** again to complete the login and proceed to the VNC session.
+
 6. Accept any security or certificate prompt if displayed.
 
     ![RealVNC Connect](./../assets/images/s7-vncviewer.png)
