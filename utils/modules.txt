@@ -1,0 +1,7 @@
+------------------------------------------------------------------------------------------------- /software/shared/modulefiles --------------------------------------------------------------------------------------------------
+boost/1.90.0  cuda/12.8.1   gdal/3.12.0  hdf4/4.3.1            ipopt/3.14.19  llama.cpp/b7898      mkl/2025.3    ollama/0.13.0           openjdk/25.0.2           python/miniconda-25.9.1(@)  R/4.3.3  rust/1.93.1  
+cmake/3.31.9  fsl/6.0.7.21  geos/3.14.1  hdf5/1.14.6(default)  julia/1.12.5   matlab/R2023b        netcdf/4.9.3  ollama/0.13.5           openmpi/5.0.9            python/miniforge-25.9.1     R/4.4.3  stata/19     
+cuda/11.8.0   gcc/14.0      go/1.26.0    hdf5/2.0.0            knitro/14.2.0  miniconda/25.9.1(@)  nvhpc/25.3    openblas/0.3.30-openmp  python/3.12.12(default)  R/4.2.3                     R/4.5.3  
+
+Key:
+(@)=module-alias  (symbolic-version)  
