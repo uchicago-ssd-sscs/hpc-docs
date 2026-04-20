@@ -23,9 +23,13 @@
 | **GPUs per Node**     |  2 × NVIDIA H100                     |  2 × NVIDIA L40S                     
 | **GPU Memory**        |  80 GB per GPU                       |  48 GB per GPU                       
 | **GPU Architecture**  |  NVIDIA Hopper                       |  NVIDIA Ada Lovelace                 
-| **QoS Option**        |  **TBD**                             |  `gpu`                 
+| **QoS Option**        |  `h100`                              |  `gpu`                 
 
-> QOS required for GPU Nodes: `gpu`
+!!! note "QoS Options"
+
+    1. QOS required for L40S GPU Nodes: `gpu`
+
+    2. QOS required for H100 GPU Nodes: `h100`
 
 !!!info
     
