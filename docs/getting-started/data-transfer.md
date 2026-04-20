@@ -8,7 +8,7 @@ We recommended following tools to move files between your local machine and the 
 
 2. **SFTP Tools**
     
-    If you prefer small transfers, consider using an SFTP (*Secure File Transfer Protocol*) application on your local device. Below are some popular examples: [Deepanshu](./../globus/overview)
+    If you prefer small transfers, consider using an SFTP (*Secure File Transfer Protocol*) application on your local device. Below are some popular examples:
 
     - **macOS:** FileZilla, Cyberduck
     - **Windows:** WinSCP
