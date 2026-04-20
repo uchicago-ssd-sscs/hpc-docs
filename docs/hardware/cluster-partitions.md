@@ -72,14 +72,22 @@ The 6045 cluster consists of:
 
 ### `gpu`
 
-**Purpose**: GPU workloads on the GPU partition
+**Purpose**: GPU workloads on the L40S Nodes on the GPU partition
 
 - Optimized for GPU-accelerated jobs
-- Use with the GPU partition for machine learning, CUDA applications, and GPU-intensive tasks
+- Use with the L40S nodes for machine learning, CUDA applications, and GPU-intensive tasks
+
+### `h100`
+
+**Purpose**: GPU workloads on the H100 Nodes on the GPU partition
+
+- Optimized for high-performance GPU-accelerated jobs
+- Use with the H100 nodes for large-scale machine learning, deep learning, and GPU-intensive research workloads
+
 
 !!! note "GPU Node Access"
 
-    GPU nodes are allocated based on research use case. If your workflow requires GPU resources, contact the Cluster Support team at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu) before submitting jobs to a GPU partition. The team will review your use case and configure the appropriate QoS options for your account.
+    GPU nodes are allocated based on research use case. If your workflow requires GPU resources, contact the Cluster Support team at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu) before submitting jobs to a GPU partition. **The team will review your use case and configure the appropriate QoS options for your account**.
 
 ---
 

@@ -1,12 +1,35 @@
 name: Deploy HPC MkDocs site
 
-on: 
+on:
   push:
-   branches:
-     - main #triggers when you push to main
+    branches:
+      - main       # Triggers deployment to GitHub Pages
+      - dev        # Triggers link checker only
 
 jobs:
+
+  # ── Link Checker (runs on dev push) ──────────────────────────
+  link-check:
+    if: github.ref == 'refs/heads/dev'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run link checker
+        run: python utils/link-checker.py
+
+  # ── Deploy (runs on main push) ────────────────────────────────
   deploy:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -23,5 +46,4 @@ jobs:
       - name: Deploy site
         run: mkdocs gh-deploy --force
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
-        
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -79,6 +79,8 @@ A large shared NFS filesystem accessible to authorized research groups, labs, an
 
       > Only members of the `johndoelab` group have read/write access to this directory.
 
+    This directory can also be accessed at `/mnt/share/johndoelab`.
+
 ## Filesystem Snapshots (Backup)
 
 The cluster storage system automatically maintains filesystem snapshots to protect against accidental file deletion or corruption. Snapshots are available for the following directories:
