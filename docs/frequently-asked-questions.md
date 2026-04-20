@@ -1,5 +1,13 @@
 # Frequently Asked Questions (FAQs)
 
+## Contact & Support
+
+For any query not covered in this guide, reach out to the Cluster Support team:
+
+**Email:** [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu)
+
+---
+
 ## Access
 
 #### How do I get an account on the new SSCS Cluster?
@@ -15,7 +23,7 @@ Our group maintains access to a number of statistical and programming packages f
 
 !!! info "Need More Help?"
 
-    Contact the Cluster Support team at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu)
+    Contact the Cluster Support team [here](#contact-support).
 
 ## Jobs
 
@@ -42,12 +50,23 @@ For more details on submitting and managing jobs, visit our [Running Jobs](./../
 
 #### Can I request access to GPU nodes?
 
-GPU nodes are available for research workloads requiring accelerated computing. If you have a use case that requires GPU resources, reach out to the Cluster Support team at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu) to discuss your requirements and get access.
+GPU nodes are available for research workloads requiring accelerated computing. If you have a use case that requires GPU resources, reach out to the Cluster Support team [here](#contact-support), to discuss your requirements and get access.
 
 ## Usage Policy
 
 #### New SSCS Cluster Usage Policy?
 
-The SSCS cluster is intended for academic research and instructional use by authorized University of Chicago faculty, students, and staff. Users are expected to use cluster resources responsibly, avoid monopolizing shared compute. Unauthorized or commercial workloads are not permitted on the cluster.
+The SSCS cluster is intended for academic research and instructional use by authorized University of Chicago faculty, students, and staff. Access is limited to members of the Social Sciences Division and their affiliates. Users are expected to use cluster resources responsibly, avoid monopolizing shared compute, and ensure that all workloads align with the academic and research mission of the division. Unauthorized or commercial workloads are not permitted on the cluster.
 
-For questions about permitted use, contact us at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu).
+For questions about permitted use or to verify eligibility, contact the [Cluster Support team](#contact-support).
+
+#### Can I use AI tools on the cluster?
+
+The University of Chicago maintains a list of authorized and restricted AI tools for use in research and instructional contexts. Before using any AI tool on the cluster, ensure it is approved for your use case.
+
+- To request access to an AI tool or submit a ticket, use the 
+[SSCS AI Tool Request Form](https://sscshelp.uchicago.edu/incidents/179427688-ai-tool-request).
+- To review the full list of approved and restricted AI tools, visit the 
+[UChicago Authorized AI Tools List](https://genai.uchicago.edu/generative-ai-tools/approved-and-restricted-ai-tools).
+
+For questions about permitted AI tool usage on the cluster, contact the [Cluster Support team](#contact-support).
