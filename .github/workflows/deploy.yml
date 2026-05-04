@@ -4,13 +4,15 @@ on:
   push:
     branches:
       - main       # Triggers deployment to GitHub Pages
-      - dev        # Triggers link checker only
+  pull_request:
+    branches:
+      - main       # Triggers link checker on any PR targeting main
 
 jobs:
 
-  # ── Link Checker (runs on dev push) ──────────────────────────
+  # ── Link Checker (runs on any PR to main) ────────────────────
   link-check:
-    if: github.ref == 'refs/heads/dev'
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -29,7 +31,7 @@ jobs:
 
   # ── Deploy (runs on main push) ────────────────────────────────
   deploy:
-    if: github.ref == 'refs/heads/main'
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
