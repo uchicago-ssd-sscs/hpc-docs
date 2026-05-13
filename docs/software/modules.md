@@ -22,7 +22,7 @@ The following modules are currently available on the cluster:
 
 <!-- MODULES_START -->
 
-**Last updated**: April 20, 2026 at 15:09 UTC
+**Last updated**: May 05, 2026 at 20:32 UTC
 
 | Module | Version(s) | &nbsp; | Module | Version(s) |
 |--------|------------|:------:|--------|------------|
