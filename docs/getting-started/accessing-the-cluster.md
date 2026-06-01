@@ -21,7 +21,7 @@ The examples below cover all available login nodes. Select the tab for your assi
 === "Athens"
 
     ```bash linenums="1"
-    ssh username@sscs-athens2.ssd.uchicago.edu
+    ssh username@athens.uchicago.edu
     ```
 
 The `username` field is your CNET ID only, not your full email address.
