@@ -58,9 +58,14 @@ After connecting to the cVPN:
 
 3. In the **RealVNC Connect** address bar, enter the login node hostname or IP address followed by the VNC port (`5999`).
 
-    > **Example for Cronus:**
-    
+    > **For Cronus:**
     > `cronus.uchicago.edu:5999`
+
+    > **For Acropolis:**
+    > `acropolis-sscs2.uchicago.edu:5999`
+
+    > **For Athens:**
+    > `athens.uchicago.edu:5999`
 
     ![RealVNC Connect](./../assets/images/s3-vncviewer.png)
 
