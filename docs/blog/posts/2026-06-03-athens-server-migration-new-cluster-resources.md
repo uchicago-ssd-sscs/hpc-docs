@@ -20,4 +20,28 @@ The system will also now provide **Globus access** for data transfer.
 
 Maintenance is expected to conclude before 5:00 PM. We will send a follow-up notification via email once maintenance is complete. If you have any questions, please reach out to us at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu).
 
-— Social Sciences Computing Services
+
+## **Important Security Note**
+
+After the upgrade, users will need to delete their existing Athens SSH host keys and reconnect to access Athens:
+
+On Windows:
+
+  1. Open `File Explorer` (`Win + E`)
+
+  2. Show hidden files: on the top bar, click **View** > **Show** > **Hidden Items**
+   
+  3. Delete everything under the hidden folder `C:\Users\<username>\.ssh\known_hosts`
+
+On MacOS:
+
+  1. Open `Finder`
+   
+  2. Show hidden files: `Command + Shift + .`
+   
+  3. Delete everything under the hidden folder `/Users/<username>/.ssh/known_hosts`
+
+
+## RealVNC Replacing EasyVNC
+
+[RealVNC Instructions](./../../getting-started/accessing-the-cluster.md)
