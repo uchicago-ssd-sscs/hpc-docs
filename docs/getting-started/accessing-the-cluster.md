@@ -6,7 +6,7 @@ After connecting the VPN<sup><b>#</b></sup>, SSH into the login node using a ter
 
 The examples below cover all available login nodes. Select the tab for your assigned cluster:
 
-=== "Cronus" 
+=== "Cronus"
 
     ```bash linenums="1"
     ssh username@cronus.uchicago.edu
@@ -48,9 +48,7 @@ If you require a graphical desktop environment, you may connect to the login nod
 
 After connecting to the cVPN:
 
-1. Download and install **VNC Viewer** from the [RealVNC website](https://www.realvnc.com/en/connect/download/viewer/){:target="_blank"}.
-
-    ![Download VNC Viewer](./../assets/images/s1-vncviewer.png)
+1. Download and install [**RealVNC Viewer Classic**](https://uchicago.box.com/s/6q3m6mszx2c0c7gsl76wgokkoyth2v1n).
 
 2. Open **VNC Viewer**.
 
@@ -91,5 +89,5 @@ After connecting to the cVPN:
 The cluster requires Two-Factor Authentication (2FA) via Duo for all user accounts. Ensure Duo is set up on your device prior to accessing the cluster.
 
 !!!info "Two-Factor Authentication"
-    
-    To set up Two-Factor Authentication (Duo) for your account, follow the [2FA Setup Guide](https://cnet.uchicago.edu/2FA/index.htm). 
+
+    To set up Two-Factor Authentication (Duo) for your account, follow the [2FA Setup Guide](https://cnet.uchicago.edu/2FA/index.htm).
