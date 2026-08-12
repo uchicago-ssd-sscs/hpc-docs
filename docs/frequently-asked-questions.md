@@ -65,7 +65,7 @@ For questions about permitted use or to verify eligibility, contact the [Cluster
 The University of Chicago maintains a list of authorized and restricted AI tools for use in research and instructional contexts. Before using any AI tool on the cluster, ensure it is approved for your use case.
 
 - To request access to an AI tool or submit a ticket, use the 
-[SSCS AI Tool Request Form](https://sscshelp.uchicago.edu/incidents/179427688-ai-tool-request).
+[SSCS AI Tool Request Form](https://sscshelp.uchicago.edu/catalog_items/2788428-ai-tool-request).
 - To review the full list of approved and restricted AI tools, visit the 
 [UChicago Authorized AI Tools List](https://genai.uchicago.edu/generative-ai-tools/approved-and-restricted-ai-tools).
 
