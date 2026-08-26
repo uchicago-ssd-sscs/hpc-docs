@@ -12,28 +12,34 @@ nav:
 - Cluster Info:
   - Cluster Partitions: 'hardware/cluster-partitions.md'
   - Cluster Hardware: 'hardware/cluster-hardware-spec.md'
-  - Directory Structure: 'hardware/directory-structure.md'
 - Running Jobs:
   - Overview: 'jobs/overview.md'
   - Submitting Jobs: 'jobs/submitting-jobs.md'
   - Command Line Options: 'jobs/cli-options.md'
   - Creating First Sbatch Script: 'jobs/creating-your-first-sbatch-scripts.md'
-  - Monitoring & Managing Jobs: 'jobs/monitoring-and-managing-jobs.md'
+  - Monitoring Jobs: 'jobs/monitoring-and-managing-jobs.md'
   - Common Workflows: 'jobs/common-workflows.md'
-- Software & Modules:
+  - Advanced Workflows:
+    - Ollama Guide: 'jobs/advanced-workflows/ollama-guide.md'
+    - Jupyter via VSCode Guide: 'jobs/advanced-workflows/jupyter-notebook-via-vs-code.md'
+    - VSCode via VNCViewer: 'advanced-workflows/vscode-via-vncviewer.md'
+- Software:
   - Overview: 'software/overview.md'
   - Modules: 'software/modules.md'
   - Conda Envrionment: 'software/conda.md'
+- Storage:
+  - Storage Locations: 'storage/storage-locations.md'
+  - Directory Stucture: 'storage/directory-structure.md'
+  - Mapping Directions: 'storage/mapping-directions.md'
 - Globus: 
   - Overview: 'globus/overview.md'
   - Logging In to Globus: 'globus/logging-in-to-globus.md'
   - File Transfer with Globus: 'globus/file-transfer-with-globus.md'
-- Advanced Workflows:
-  - Ollama Guide: 'advanced-workflows/ollama-guide.md'
-  - Jupyter via VSCode Guide: 'advanced-workflows/jupyter-notebook-via-vs-code.md'
-  - VSCode via VNCViewer: 'advanced-workflows/vscode-via-vncviewer.md'
+- Policies: 
+  - Acceptable Use: 'policies/acceptable-use.md'
+  - "AI & LLMs": 'policies/language-models.md'
 - FAQs: 'frequently-asked-questions.md'
-- News & Announcements: 
+- Announcements: 
   - Index: 'blog/index.md'
 # - Connecting: 'connecting/connecting.md'
 # - Slurm: 'slurm/slurm.md'
