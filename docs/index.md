@@ -9,14 +9,20 @@ This site serves as the central reference for accessing and utilizing SSCS compu
 **[Getting Started](getting-started/connect-to-vpn.md)**
 Learn how to request access, set up your account, and connect to the cluster for the first time.
 
-**[Storage & Cluster Information](hardware/cluster-partitions.md)**
-Explore the cluster hardware, available partitions, node specifications, and storage systems including `/home`, `/share`, and `/scratch`.
+**[Cluster Information](hardware/cluster-partitions.md)**
+Explore the cluster hardware, available partitions, and node specifications.
+
+**[Storage](storage/directory-structure.md)**
+Access and manage home directories, shared storage, and other data resources on the cluster.
 
 **[Running Jobs](jobs/overview.md)**
 Learn how to write and submit SLURM batch scripts, monitor job status, and make the most of available compute resources.
 
 **[Globus](globus/overview.md)**
 Transfer large datasets to and from the cluster securely and efficiently using Globus.
+
+**[Policies](policies/acceptable-use.md)**
+Review cluster usage policies, access requirements and guidelines for AI and LLM tools.
 
 **[FAQs](frequently-asked-questions.md)**
 Find answers to common questions about access, storage, jobs, and software.

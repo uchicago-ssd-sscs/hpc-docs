@@ -52,13 +52,7 @@ For more details on submitting and managing jobs, visit our [Running Jobs](./../
 
 GPU nodes are available for research workloads requiring accelerated computing. If you have a use case that requires GPU resources, reach out to the Cluster Support team [here](#contact-support), to discuss your requirements and get access.
 
-## Usage Policy
-
-#### New SSCS Cluster Usage Policy?
-
-The SSCS cluster is intended for academic research and instructional use by authorized University of Chicago faculty, students, and staff. Access is limited to members of the Social Sciences Division and their affiliates. Users are expected to use cluster resources responsibly, avoid monopolizing shared compute, and ensure that all workloads align with the academic and research mission of the division. Unauthorized or commercial workloads are not permitted on the cluster.
-
-For questions about permitted use or to verify eligibility, contact the [Cluster Support team](#contact-support).
+## AI Tools & LLMs
 
 #### Can I use AI tools on the cluster?
 
