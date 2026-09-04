@@ -6,13 +6,13 @@ This guide walks you through launching a VS Code session on the SSCS cluster usi
 
 **VNC Viewer installed and connected to the cluster login node**. 
 
-If you have not yet set up VNC Viewer or connected to the login node, refer to the [VNC Viewer Setup Guide](./../../getting-started/accessing-the-cluster/#graphical-access-realvnc) before proceeding.
+If you have not yet set up VNC Viewer or connected to the login node, refer to the [VNC Viewer Setup Guide](./../../getting-started/accessing-the-cluster.md#graphical-access-realvnc) before proceeding.
 
 ## Steps
 
 ### Step 1: Connect to the Cluster via VNC
 
-Connect to CVPN (if off-campus) and open your VNC Viewer session to the cluster login node. Refer to the [Accessing the Cluster](./../../getting-started/accessing-the-cluster/) and [VNC Viewer Setup](./../../getting-started/accessing-the-cluster/#graphical-access-realvnc) guides for detailed instructions.
+Connect to CVPN (if off-campus) and open your VNC Viewer session to the cluster login node. Refer to the [Accessing the Cluster](./../../getting-started/accessing-the-cluster.md) and [VNC Viewer Setup](./../../getting-started/accessing-the-cluster.md#graphical-access-realvnc) guides for detailed instructions.
 
 
 ### Step 2: Launch VS Code from the Applications Menu
@@ -20,9 +20,9 @@ Connect to CVPN (if off-campus) and open your VNC Viewer session to the cluster 
 Once connected via VNC, click on **Applications** in the top-left menu bar.
 Navigate to **Job Launchers** and select **vscode** from the list.
 
-![Applications Menu](./../assets/images/s1-vsviavnc.png)
+![Applications Menu](./../../assets/images/s1-vsviavnc.png)
 
-![Job Launchers Menu](./../assets/images/s2-vsviavnc.png)
+![Job Launchers Menu](./../../assets/images/s2-vsviavnc.png)
 
 
 ### Step 3: Select a Partition and Allocate Resources
@@ -35,11 +35,11 @@ You will be prompted to configure your job resources:
     !!! note "GPU Node Access"
         GPU nodes are allocated based on research use case. If your workflow requires GPU resources, contact the Cluster Support team at [ssc-server-support@lists.uchicago.edu](mailto:ssc-server-support@lists.uchicago.edu) before submitting jobs to a GPU partition. The team will review your use case and configure the appropriate QoS options for your account.
 
-    ![Partition and Resource Selection](./../assets/images/s3-vsviavnc.png)
+    ![Partition and Resource Selection](./../../assets/images/s3-vsviavnc.png)
 
 2. **Select number of CPU cores and GiBs of RAM**
 
-    ![Resource Allocation](./../assets/images/s4-vsviavnc.png)
+    ![Resource Allocation](./../../assets/images/s4-vsviavnc.png)
 
 
 ### Step 4: Launch and Access VS Code
@@ -47,7 +47,7 @@ You will be prompted to configure your job resources:
 Once resources are allocated, the terminal will display your **Job Information** 
 along with a URL and a password to access VS Code.
 
-![Job Information and URL](./../assets/images/s5-vsviavnc.png)
+![Job Information and URL](./../../assets/images/s5-vsviavnc.png)
 
 To access VS Code:
 
@@ -56,16 +56,16 @@ the Firefox browser inside your VNC session.
 2. If prompted with a **security warning** about a self-signed certificate, click 
 **Advanced** and then **Accept the Risk and Continue**.
 
-    ![Security Warning](./../assets/images/s6-vsviavnc.png)
+    ![Security Warning](./../../assets/images/s6-vsviavnc.png)
 
 3. Enter the **password** displayed in the terminal when prompted.
 
-    ![Password Prompt](./../assets/images/s7-vsviavnc.png)
+    ![Password Prompt](./../../assets/images/s7-vsviavnc.png)
 
 4. If asked whether to trust the authors of files in the folder, click 
 **Yes, I trust the authors**.
 
-    ![Trust Authors](./../assets/images/s8-vsviavnc.png)
+    ![Trust Authors](./../../assets/images/s8-vsviavnc.png)
 
 
 ### Step 5: Keep the Terminal Open
