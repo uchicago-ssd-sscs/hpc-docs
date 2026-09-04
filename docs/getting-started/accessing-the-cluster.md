@@ -2,7 +2,7 @@
 
 ## Secure Shell Connect
 
-After connecting the [VPN](connect-to-vpn.md), SSH into the login node using a terminal on your personal device (Mac, Windows, Linux, etc.):
+After connecting the [VPN](./connect-to-vpn.md), SSH into the login node using a terminal on your personal device (Mac, Windows, Linux, etc.):
 
 The examples below cover all available login nodes. Select the tab for your assigned cluster:
 
@@ -31,7 +31,7 @@ The `username` field is your CNET ID only, not your full email address.
 
 !!! note "<sup><b>#</b></sup> Network Access"
 
-    **On-campus users can connect to the cluster directly without VPN**. If you are off-campus, connect to the [UChicago CVPN](/hpc-docs/getting-started/connect-to-vpn/) before attempting to access the cluster.
+    **On-campus users can connect to the cluster directly without VPN**. If you are off-campus, connect to the [UChicago CVPN](./connect-to-vpn.md) before attempting to access the cluster.
 
 ## SSH Tools
 

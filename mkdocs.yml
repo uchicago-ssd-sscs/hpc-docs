@@ -22,7 +22,7 @@ nav:
   - Advanced Workflows:
     - Ollama Guide: 'jobs/advanced-workflows/ollama-guide.md'
     - Jupyter via VSCode Guide: 'jobs/advanced-workflows/jupyter-notebook-via-vs-code.md'
-    - VSCode via VNCViewer: 'advanced-workflows/vscode-via-vncviewer.md'
+    - VSCode via VNCViewer: 'jobs/advanced-workflows/vscode-via-vncviewer.md'
 - Software:
   - Overview: 'software/overview.md'
   - Modules: 'software/modules.md'
