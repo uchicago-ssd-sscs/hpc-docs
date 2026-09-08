@@ -26,10 +26,10 @@ nav:
 - Software:
   - Overview: 'software/overview.md'
   - Modules: 'software/modules.md'
-  - Conda Envrionment: 'software/conda.md'
+  - Conda Environment: 'software/conda.md'
 - Storage:
   - Storage Locations: 'storage/storage-locations.md'
-  - Directory Stucture: 'storage/directory-structure.md'
+  - Directory Structure: 'storage/directory-structure.md'
   - Mapping Directions: 'storage/mapping-directions.md'
 - Globus: 
   - Overview: 'globus/overview.md'

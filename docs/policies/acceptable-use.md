@@ -12,4 +12,4 @@ The following uses are not permitted:
 
 Users are responsible for ensuring that their use of the cluster complies with applicable University policies and requirements.
 
-For questions about permitted use or to verify eligibility, contact the [Cluster Support team](#contact-support).
+For questions about permitted use or to verify eligibility, contact the [Cluster Support team](./../frequently-asked-questions.md#contact-support).

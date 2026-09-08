@@ -1,4 +1,4 @@
-# Softare Environment & Modules
+# Software Environment & Modules
 
 The 6045 cluster uses TCL modules. For testing, learning, or light interactive work, you can load modules directly on the login node. 
 

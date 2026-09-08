@@ -17,7 +17,7 @@ The 6045 cluster consists of:
 
 - **20 compute nodes** (CPU)
 - **3 GPU nodes** (specialized accelerators)
-- **2 dedicated login node**
+- **3 dedicated login nodes**
 
 ---
 
@@ -38,7 +38,7 @@ The 6045 cluster consists of:
 
 **Purpose**: GPU-accelerated workloads (CUDA, AI/ML, deep learning, etc.)
 
-- **2 L40s GPU nodes**: High-performance GPUs for AI/ML and visualization
+- **2 L40S GPU nodes**: High-performance GPUs for AI/ML and visualization
 - **1 H100 GPU node**: Cutting-edge GPU for the most demanding workloads
 
 ??? warning "GPU Resource Considerations"

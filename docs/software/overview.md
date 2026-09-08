@@ -6,7 +6,7 @@ This section provides a catalog of software available on the HPC cluster.
 
 - **R** – Statistical computing and graphics  
 - **MPI** – Message Passing Interface for parallel computing  
-- **Ollama** – Ollama  
+- **Ollama** – Local model runner and manager
 - **Python** – Python programming language  
 - **Conda** – Environment and package management system  
 - **Miniforge** – Minimal Conda distribution  

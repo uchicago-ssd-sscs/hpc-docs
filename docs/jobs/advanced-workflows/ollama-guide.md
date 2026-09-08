@@ -1,6 +1,6 @@
 # Ollama Guide
 
-[Ollama](https://ollama.com/) is an open source platform for conveniently running large language models (LLMs) on local compute resources. To accomodate LLM workflows, the cluster is equipped with 2 GPU nodes with the following specs:
+[Ollama](https://ollama.com/) is an open source platform for conveniently running large language models (LLMs) on local compute resources. To accommodate LLM workflows, the cluster is equipped with 2 GPU nodes with the following specs:
 
 | Partition | CPUS    | RAM   | GPUS      | VRAM |
 | :-------- | :------ | :---- | :-------- | :--- |
@@ -24,7 +24,7 @@ Running a job with ollama can be done interactively or using a batch job. Both m
 
 Interactive jobs are useful for becoming more familiar with the ollama workflow, quick testing, or fine tuning ollama server configs. Below are examples steps for running an interactive ollama job:
 
-1. First, log into the cluster and confirm your are on a login node. Then launch an interactive job (e.g. max runtime 1 hour, 1 cpu, 1 L40S gpu, and 56G RAM)
+1. First, log into the cluster and confirm you are on a login node. Then launch an interactive job (e.g. max runtime 1 hour, 1 cpu, 1 L40S gpu, and 56G RAM)
 ```bash
 hostname
 > cronus
@@ -81,7 +81,7 @@ ollama ps                    # list running models
     !!! note
         See [Example Python Script: Ollama Python API](./../ollama-guide/#example-python-script-ollama-python-api), for a simple usage example.
 
-8. If any ollama server configs need to be changed, the server needs to be restarted for changes to take affect.
+8. If any ollama server configs need to be changed, the server needs to be restarted for changes to take effect.
 ```bash
 sleep 30 & # example/dummy background process for demonstration
 
@@ -119,7 +119,7 @@ squeue -u $USER            # view status of current jobs
       2074      l40s ollama_e   <cnet_id>  R       0:06      1 gpu2
 ```
 
-Below is a batch script which submits a job to a compute node allocation similar to the `srun` command in the interactive example above. In addition, a simple python script to demonstrate the how to use the [ollama python API](https://github.com/ollama/ollama-python) is also provided below.
+Below is a batch script which submits a job to a compute node allocation similar to the `srun` command in the interactive example above. In addition, a simple python script to demonstrate how to use the [ollama python API](https://github.com/ollama/ollama-python) is also provided below.
 
 Example batch script for submitting a job to a compute node which launches an ollama server and submits prompts using a python script:
 

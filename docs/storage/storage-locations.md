@@ -12,7 +12,7 @@ The following table summarizes the storage locations available to cluster users:
 |---|---|---|---|
 | **Home directory** | `/home/<your_cnet_id>` | `smb://ssdhomedirs.uchicago.edu/<your_cnet_id>` | `\\ssdhomedirs.uchicago.edu\<your_cnet_id>` |
 | **Cronus shared storage** | `/share/<sharename>` | `smb://ssdfiles.uchicago.edu/<sharename>` | `\\ssdfiles.uchicago.edu\<sharename>` |
-| **Athens shared storage** | `/share/<sharename>` | `smb://ssdfiles.uchicago.edu/<sharename>` | `\\ssdfiles.uchicago.edu\<sharename` |
+| **Athens shared storage** | `/share/<sharename>` | `smb://ssdfiles.uchicago.edu/<sharename>` | `\\ssdfiles.uchicago.edu\<sharename>` |
 | **Acropolis shared storage** | `/share/<sharename>`* | `smb://ssdacropolisshares.uchicago.edu/<sharename>` | `\\ssdacropolisshares.uchicago.edu\<sharename>` |
 
 > **Note:** Use the Acropolis-specific storage hostname only for shares hosted on Acropolis shared storage.
@@ -48,4 +48,4 @@ For Acropolis group and project shares, use:
 
 SMB allows you to access files stored on the HPC storage system as though they were in a folder on your local computer. Once connected, you can browse files and directories, drag and drop files between your computer and the storage system, and open files stored on the share using software installed on your computer.
 
-For more extensive step-by-by instructions on connecting to these locations from macOS or Windows, see [**Mapping Storage Shares**](mapping-directions.md).
+For more extensive step-by-step instructions on connecting to these locations from macOS or Windows, see [**Mapping Storage Shares**](mapping-directions.md).
