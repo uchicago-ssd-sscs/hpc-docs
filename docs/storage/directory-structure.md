@@ -57,7 +57,7 @@ Houses all centrally managed software available on the cluster, maintained by th
 - **Access:** Restricted — managed by SSCS administrators.
 
 !!! info "Loading Software"
-    Users access software through the `module` command rather than directly accessing this directory. See [Environment Modules](./../../software/modules/#softare-environment-modules) for more information. -->
+    Users access software through the `module` command rather than directly accessing this directory. See [Environment Modules](./../../software/modules/#software-environment-modules) for more information. -->
 
 
 ## /share
