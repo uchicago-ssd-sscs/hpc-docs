@@ -9,5 +9,5 @@ The University of Chicago maintains a list of authorized and restricted AI tools
 - To review the full list of approved and restricted AI tools, visit the
 [UChicago Authorized AI Tools List](https://genai.uchicago.edu/generative-ai-tools/approved-and-restricted-ai-tools).
 
-For questions about permitted AI tool usage on the cluster, contact the [Cluster Support team](#contact-support).
+For questions about permitted AI tool usage on the cluster, contact the [Cluster Support team](./../frequently-asked-questions.md#contact-support).
 
