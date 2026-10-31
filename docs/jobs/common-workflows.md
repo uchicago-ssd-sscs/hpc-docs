@@ -4,16 +4,16 @@
 
 | Task | Command | Example |
 |------|---------|---------|
-| Submit batch job | [`sbatch`](./../submitting-jobs/#sbatch) | `sbatch job.sh` |
-| Interactive job | [`srun`](./../submitting-jobs/#srun) | `srun --pty bash` |
-| View your jobs | [`squeue -u`](./../monitoring-and-managing-jobs/#squeue-view-job-queue) | `squeue -u $USER` |
-| Job details | [`scontrol show job`](./../monitoring-and-managing-jobs/#scontrol-show-job-detailed-job-information) | `scontrol show job <job-id>` |
-| Cancel job | [`scancel`](./../monitoring-and-managing-jobs/#scancel-cancel-jobs) | `scancel <job-id>` |
-| View partitions | [`sinfo`](./../monitoring-and-managing-jobs/#sinfo-partition-and-node-information) | `sinfo -p <partition-name>` |
-| Job history | [`sacct`](./../monitoring-and-managing-jobs/#sacct-job-accounting-information) | `sacct -j <job-id>` |
-| SSH to node | [`ssh`](./../monitoring-and-managing-jobs/#ssh-into-running-jobs) | `ssh <node-id>` |
-| GPU monitoring | [`nvidia-smi`](./../monitoring-and-managing-jobs/#checking-gpu-usage) | `nvidia-smi` |
-| Real-time stats | [`sstat`](./../monitoring-and-managing-jobs/#sstat-real-time-job-statistics) | `sstat -j <job-id>` |
+| Submit batch job | [`sbatch`](./submitting-jobs.md#sbatch) | `sbatch job.sh` |
+| Interactive job | [`srun`](./submitting-jobs.md#srun) | `srun --pty bash` |
+| View your jobs | [`squeue -u`](./monitoring-and-managing-jobs.md#squeue-view-job-queue) | `squeue -u $USER` |
+| Job details | [`scontrol show job`](./monitoring-and-managing-jobs.md#scontrol-show-job-detailed-job-information) | `scontrol show job <job-id>` |
+| Cancel job | [`scancel`](./monitoring-and-managing-jobs.md#scancel-cancel-jobs) | `scancel <job-id>` |
+| View partitions | [`sinfo`](./monitoring-and-managing-jobs.md#sinfo-partition-and-node-information) | `sinfo -p <partition-name>` |
+| Job history | [`sacct`](./monitoring-and-managing-jobs.md#sacct-job-accounting-information) | `sacct -j <job-id>` |
+| SSH to node | [`ssh`](./monitoring-and-managing-jobs.md#ssh-into-running-jobs) | `ssh <node-id>` |
+| GPU monitoring | [`nvidia-smi`](./monitoring-and-managing-jobs.md#checking-gpu-usage) | `nvidia-smi` |
+| Real-time stats | [`sstat`](./monitoring-and-managing-jobs.md#sstat-real-time-job-statistics) | `sstat -j <job-id>` |
 
 ## Workflow 1: Submit and Monitor a Job
 

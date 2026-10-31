@@ -29,7 +29,7 @@ Our group maintains access to a number of statistical and programming packages f
 
 #### How do I check my job status?
     
-Use the [`squeue`](./../jobs/monitoring-and-managing-jobs#monitoring-job-status) command to check the status of your jobs. Each job will show a State Code indicating its current status.
+Use the [`squeue`](./jobs/monitoring-and-managing-jobs.md#monitoring-job-status) command to check the status of your jobs. Each job will show a State Code indicating its current status.
 
 ??? info "Job State Codes"
 
@@ -46,7 +46,7 @@ Use the [`squeue`](./../jobs/monitoring-and-managing-jobs#monitoring-job-status)
     | SUSPENDED   | `S`  | A running job has been stopped with its cores released to other jobs.|
     | STOPPED     | `ST` | A running job has been stopped with its cores retained.              |
 
-For more details on submitting and managing jobs, visit our [Running Jobs](./../jobs/overview/) Page.
+For more details on submitting and managing jobs, visit our [Running Jobs](./jobs/overview.md) Page.
 
 #### Can I request access to GPU nodes?
 

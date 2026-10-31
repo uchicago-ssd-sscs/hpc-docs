@@ -33,4 +33,4 @@
 
 !!!info
     
-    For more information, see [Quality of Service (QoS)](./../cluster-partitions/#qos-quality-of-service) Options. 
+    For more information, see [Quality of Service (QoS)](./cluster-partitions.md#qos-quality-of-service) Options. 

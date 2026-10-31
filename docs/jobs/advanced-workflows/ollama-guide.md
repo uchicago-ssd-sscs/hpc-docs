@@ -79,7 +79,7 @@ ollama ps                    # list running models
     * [Ollama Python API](https://github.com/ollama/ollama-python)
 
     !!! note
-        See [Example Python Script: Ollama Python API](./../ollama-guide/#example-python-script-ollama-python-api), for a simple usage example.
+        See [Example Python Script: Ollama Python API](#example-python-script-ollama-python-api), for a simple usage example.
 
 8. If any ollama server configs need to be changed, the server needs to be restarted for changes to take affect.
 ```bash
