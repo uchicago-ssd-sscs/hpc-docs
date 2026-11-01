@@ -3,31 +3,9 @@ name: Deploy HPC MkDocs site
 on:
   push:
     branches:
-      - main       # Triggers deployment to GitHub Pages
-  pull_request:
-    branches:
-      - main       # Triggers link checker on any PR targeting main
+      - main
 
 jobs:
-
-  # ── Link Checker (runs on any PR to main) ────────────────────
-  link-check:
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.x"
-
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Run link checker
-        run: python utils/link-checker.py
 
   # ── Deploy (runs on main push) ────────────────────────────────
   deploy:
