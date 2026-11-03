@@ -146,7 +146,7 @@ print(f"Job ID: {os.environ['SLURM_JOB_ID']}")
 
 ### Step 8: Cancel job when finished
 
-When you are doing working, cancel your batch job:
+When you are done working, cancel your batch job:
 
 ```bash
 # Run `squeue` to determine the id of the job running your jupyter server

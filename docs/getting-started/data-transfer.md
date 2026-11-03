@@ -1,6 +1,6 @@
 # Transferring Data to/from the Cluster
 
-We recommended following tools to move files between your local machine and the cluster:
+We recommend the following tools to move files between your local machine and the cluster:
 
 1. **Globus (*preferred*)**
     
