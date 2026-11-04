@@ -30,12 +30,12 @@ A high-capacity local disk available exclusively on compute nodes, intended for 
     `/scratch` is local to each compute node and is not shared across nodes. Copy any results you wish to keep back to `/home` or `/share` before your job ends, as data may not persist after the job completes.
 
 ??? info "Accessing `/scratch/<cnet_id>`" 
-    1. Run a job via `srun` (see [Submitting Jobs](./../../jobs/submitting-jobs/#srun))
+    1. Run a job via `srun` (see [Submitting Jobs](./../jobs/submitting-jobs.md#srun))
     ```bash
     srun <cli-options> --pty /bin/bash 
     cd /scratch/<cnet_id>
     ```
-    2. Create a job via `sbatch` and SSH into compute node (see [Submitting Jobs](./../../jobs/submitting-jobs/#sbatch) & [SSH into running jobs](./../../jobs/monitoring-and-managing-jobs/#ssh-into-running-jobs))
+    2. Create a job via `sbatch` and SSH into compute node (see [Submitting Jobs](./../jobs/submitting-jobs.md#sbatch) & [SSH into running jobs](./../jobs/monitoring-and-managing-jobs.md#ssh-into-running-jobs))
     ```bash
     $ sbatch first-job.sh
     Submitted batch job 946393
@@ -57,7 +57,7 @@ Houses all centrally managed software available on the cluster, maintained by th
 - **Access:** Restricted — managed by SSCS administrators.
 
 !!! info "Loading Software"
-    Users access software through the `module` command rather than directly accessing this directory. See [Environment Modules](./../../software/modules/#softare-environment-modules) for more information. -->
+    Users access software through the `module` command rather than directly accessing this directory. See [Environment Modules](./../../software/modules/#software-environment-modules) for more information. -->
 
 
 ## /share

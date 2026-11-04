@@ -1,10 +1,10 @@
 # Transferring Data to/from the Cluster
 
-We recommended following tools to move files between your local machine and the cluster:
+We recommend the following tools to move files between your local machine and the cluster:
 
 1. **Globus (*preferred*)**
     
-    We use Globus for reliable, high-performance data transfer to and from the cluster. It handles large datasets easily, supports automatic resume/retry, and runs without requiring an open terminal session. You can find instructions to login at [File Transfer (Globus Login)](./../../globus/overview)
+    We use Globus for reliable, high-performance data transfer to and from the cluster. It handles large datasets easily, supports automatic resume/retry, and runs without requiring an open terminal session. You can find instructions to login at [File Transfer (Globus Login)](./../globus/overview.md)
 
 2. **SFTP Tools**
     
