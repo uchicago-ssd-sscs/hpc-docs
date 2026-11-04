@@ -1,0 +1,195 @@
+/* docs/stylesheets/footer.css */
+
+.uchicago-footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 260px 1fr 260px; /* brand | links | social */
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1rem 0 0.5rem;
+}
+
+/* Brand / logo */
+.uchicago-footer__brand {
+  display: flex;
+  align-items: flex-start;
+}
+
+.uchicago-footer__logo {
+  width: 240px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: -15px;
+  margin-left: -20px;
+}
+
+/* Links */
+.uchicago-footer__links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(140px, 1fr));
+  gap: 1.25rem;
+}
+
+.uchicago-footer__col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.uchicago-footer__heading {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+}
+
+.uchicago-footer__link {
+  font-size: 0.82rem;
+  text-decoration: none;
+  opacity: 0.75;
+}
+
+.uchicago-footer__link:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+/* Social */
+.uchicago-footer__social {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.uchicago-footer__socialText {
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+  margin: 0;
+}
+
+/* Icons: minimal, no circles */
+.uchicago-footer__icons {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.uchicago-footer__icon {
+  color: rgba(255, 255, 255, 0.72);
+  text-decoration: none;
+  line-height: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease, color 0.2s ease;
+}
+
+.uchicago-footer__icon svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.uchicago-footer__icon:hover {
+  color: #ffffff;
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+/* Bottom line */
+.uchicago-footer__bottom {
+  grid-column: 1 / -1;
+  padding: 0.5rem 0 0;
+  margin-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  opacity: 0.85;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 1100px) {
+  .uchicago-footer {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .uchicago-footer__links {
+    grid-template-columns: repeat(2, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+
+  .uchicago-footer__logo {
+    width: 170px;
+  }
+}
+
+@media (max-width: 700px) {
+  .uchicago-footer__links {
+    grid-template-columns: 1fr;
+  }
+
+  .uchicago-footer__logo {
+    width: 160px;
+  }
+}
+
+/* Modulate Typography Size */
+.md-footer-meta {
+  font-size: 0.65rem;
+}
+
+.uchicago-footer__heading {
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+
+.uchicago-footer__link {
+  font-size: 0.65rem;
+  opacity: 0.75;
+}
+
+.uchicago-footer__socialText {
+  font-size: 0.65rem;
+  line-height: 1.15rem;
+  font-weight: 500;
+}
+
+.uchicago-footer__bottom {
+  font-size: 0.6rem;
+}
+
+.uchicago-footer__icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.uchicago-footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+/* Address styling */
+.uchicago-footer__address {
+  font-size: 0.6rem;
+  line-height: 1.0rem;
+  opacity: 0.75;
+  margin-top: -20px;
+}
+
+.md-footer .uchicago-footer a,
+.md-footer .uchicago-footer a:visited {
+  color: rgba(255, 255, 255, 0.75) !important;
+  text-decoration: none !important;
+}
+
+.md-footer .uchicago-footer a:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+  text-decoration-style: solid !important;
+}
+
+/* Remove external-link arrow inside footer */
+.md-footer .uchicago-footer a:after {
+  content: none !important;
+}
