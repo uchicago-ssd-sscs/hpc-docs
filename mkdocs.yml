@@ -1,5 +1,5 @@
 site_name: SSCS New Cluster
-site_url: https://uchicago-ssd-sscs.github.io/hpc-docs
+site_url: https://docs.ssd.uchicago.edu
 nav:
 - Home: 'index.md'
 - Getting Started: 
